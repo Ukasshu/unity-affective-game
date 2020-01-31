@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!-- Specify all scenes in correct order -->
+  <scenes>
+    <scene path="Assets/Scenes/SampleScene.unity"/>
+    <scene path="Assets/Scenes/Form.unity"/>
+  </scenes>
+
+  <connectionString value="Server=localhost;Database=aml_project;User Id=aml;Password=aml;"/>
+
+
+  <!-- if PowerShell is added to path variable you can leave this option as is -->
+  <powershellPath path="powershell.exe"/>
+
+  <!-- uncomment option with your database provider -->
+  <databaseProvider value="SqlServer"/>
+  <!-- <databaseProvider value="MySql"/> -->
+  <!-- <databaseProvider value="SQLite"/> -->
+  <!-- <databaseProvider value="PostgreSQL"/> -->
+</config>
